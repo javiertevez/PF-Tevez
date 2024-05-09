@@ -396,3 +396,40 @@ footer {
       margin: auto; }
       .perfiles div a {
         text-align: center; } }
+
+.caja-titulo-repertorio {
+  margin: 30px; }
+  .caja-titulo-repertorio .titulo-repertorio {
+    font-family: "titulo";
+    color: #949494;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-top: 20px; }
+
+.fondo-repertorio {
+  background: url(../resources/Fotos/fondo-claro.jpg);
+  background-attachment: fixed; }
+  .fondo-repertorio .caja-repertorio {
+    display: flex;
+    flex-direction: column;
+    background-color: #3e3e3e;
+    width: 600px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 5px; }
+    .fondo-repertorio .caja-repertorio .repertorio {
+      color: white;
+      padding: 90px;
+      padding-left: 90px;
+      list-style: none; }
+
+@media (max-width: 910px) {
+  .caja-titulo-repertorio .titulo-repertorio {
+    font-size: 20px;
+    letter-spacing: 2px; }
+  .fondo-repertorio .caja-repertorio {
+    width: 250px; }
+    .fondo-repertorio .caja-repertorio .repertorio {
+      font-size: 12px;
+      padding: 30px; } }

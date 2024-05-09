@@ -117,7 +117,7 @@
       margin: 30px; }
 
 footer {
-  background-color: #d09d62;
+  background-color: #f7c77f;
   display: flex;
   flex-direction: row; }
   footer .footer {
@@ -229,3 +229,170 @@ footer {
         transform: scale(1.1, 1.1); }
       .wapp button img {
         height: 50px; } }
+
+.titulo-nosotros {
+  border: solid;
+  border-color: #1f1f1f;
+  margin: auto;
+  height: 100px;
+  padding: 0;
+  background-color: #1f1f1f; }
+  .titulo-nosotros .musica-uniendo {
+    font-family: "titulo";
+    color: #949494;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-top: 27px; }
+
+.nosotros {
+  background: url(../resources/Fotos/fondo-claro.jpg);
+  background-attachment: fixed;
+  padding-top: 30px;
+  padding-bottom: 0px; }
+  .nosotros .caja-texto-nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: #f7c77f;
+    box-shadow: -20px 20px 20px grey;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px; }
+    .nosotros .caja-texto-nosotros p {
+      margin: 50px;
+      margin-bottom: 20px;
+      text-align: justify; }
+    .nosotros .caja-texto-nosotros h3 {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 50px; }
+
+.titulo-integrantes {
+  border: solid;
+  border-color: #1f1f1f;
+  margin: auto;
+  height: 100px;
+  padding: 0;
+  background-color: #1f1f1f; }
+  .titulo-integrantes .integrantes {
+    font-family: "titulo";
+    color: #949494;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 15px;
+    margin-top: 29px; }
+
+.ruteros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7c77f; }
+  .ruteros .rutero {
+    margin: 50px; }
+    .ruteros .rutero img {
+      height: 220px;
+      width: 220px;
+      object-fit: cover;
+      object-position: top;
+      margin-bottom: 30px;
+      box-shadow: -20px 20px 20px #675d3c; }
+    .ruteros .rutero .texto-rutero {
+      background-color: white;
+      width: 220px;
+      height: 330px;
+      box-shadow: -20px 20px 20px #675d3c; }
+      .ruteros .rutero .texto-rutero .titulo-chico {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 40px;
+        font-family: "titulo"; }
+      .ruteros .rutero .texto-rutero p {
+        text-align: justify;
+        font-size: 13px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding: 25px; }
+
+.titulo-redes {
+  border: solid;
+  border-color: #1f1f1f;
+  margin: auto;
+  height: 100px;
+  padding: 0;
+  background-color: #1f1f1f; }
+  .titulo-redes .integrantes {
+    font-family: "titulo";
+    color: #949494;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 15px;
+    margin-top: 29px; }
+
+.perfiles {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 60px; }
+  .perfiles div {
+    display: flex;
+    flex-direction: column; }
+    .perfiles div img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 70px;
+      margin: 40px; }
+    .perfiles div a {
+      text-decoration: none;
+      text-align: center;
+      font-family: "titulo";
+      font-size: 20px;
+      color: white; }
+      .perfiles div a:hover {
+        border: solid;
+        border-color: grey;
+        border-radius: 20px; }
+
+@media (max-width: 910px) {
+  .titulo-nosotros .musica-uniendo {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 35px; }
+  .nosotros {
+    padding-top: 5px; }
+    .nosotros .caja-texto-nosotros {
+      width: 280px;
+      height: 630px; }
+      .nosotros .caja-texto-nosotros p {
+        font-size: 14px;
+        margin: 30px; }
+      .nosotros .caja-texto-nosotros h3 {
+        font-size: 17px; }
+  .titulo-integrantes .integrantes {
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px; }
+  .ruteros {
+    flex-direction: column; }
+  .titulo-redes .integrantes {
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px; }
+  .perfiles {
+    flex-direction: column;
+    margin: auto; }
+    .perfiles div {
+      margin: auto; }
+      .perfiles div a {
+        text-align: center; } }

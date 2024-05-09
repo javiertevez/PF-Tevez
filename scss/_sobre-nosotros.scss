@@ -1,0 +1,260 @@
+.titulo-nosotros {
+    border: solid;
+    border-color: rgb(31, 31, 31);
+    margin: auto;
+    height: 100px;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+
+    .musica-uniendo {
+        font-family: "titulo";
+        color: $color-titulo;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 20px;
+        margin-top: 27px;
+    }
+}
+
+.nosotros {
+    background: url(../resources/Fotos/fondo-claro.jpg);
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 0px;
+
+    .caja-texto-nosotros {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        background-color: $naranja;
+        box-shadow: -20px 20px 20px grey;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+
+        p {
+            margin: 50px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        h3 {
+
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+// integrantes de la banda
+
+.titulo-integrantes {
+    border: solid;
+    border-color: rgb(31, 31, 31);
+    margin: auto;
+    height: 100px;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+
+    .integrantes {
+        font-family: "titulo";
+        color: $color-titulo;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 15px;
+        margin-top: 29px;
+
+    }
+}
+
+.ruteros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $naranja;
+
+    .rutero {
+        margin: 50px;
+
+        img {
+            height: 220px;
+            width: 220px;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: 30px;
+            box-shadow: -20px 20px 20px rgb(103, 93, 60);
+
+        }
+
+        .texto-rutero {
+            background-color: white;
+            width: 220px;
+            height: 330px;
+            box-shadow: -20px 20px 20px rgb(103, 93, 60);
+
+            .titulo-chico {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                text-align: center;
+                font-size: 40px;
+                font-family: "titulo";
+            }
+
+            p {
+                text-align: justify;
+                font-size: 13px;
+                margin-top: 0px;
+                padding-top: 0px;
+                padding: 25px;
+
+
+
+            }
+        }
+
+    }
+}
+
+.titulo-redes {
+    border: solid;
+    border-color: rgb(31, 31, 31);
+    margin: auto;
+    height: 100px;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+
+    .integrantes {
+        font-family: "titulo";
+        color: $color-titulo;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 15px;
+        margin-top: 29px;
+
+    }
+}
+
+//perfiles
+
+.perfiles {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 60px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 70px;
+            margin: 40px;
+
+        }
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            font-family: "titulo";
+            font-size: 20px;
+            color: white;
+
+            &:hover {
+                border: solid;
+                border-color: grey;
+                border-radius: 20px;
+            }
+
+
+
+        }
+    }
+}
+
+
+//medias querys
+
+@media (max-width: 910px) {
+
+
+    .titulo-nosotros {
+
+        .musica-uniendo {
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin-top: 35px;
+
+
+        }
+    }
+
+    .nosotros {
+        padding-top: 5px;
+        .caja-texto-nosotros {
+            width: 280px;
+            height: 630px;
+           
+
+         p {
+            font-size: 14px;
+            margin: 30px;
+           
+            
+
+        }
+        h3 {
+            font-size: 17px;
+        }
+    }
+       
+    }
+
+    .titulo-integrantes {
+        .integrantes {
+            font-size: 18px;
+            letter-spacing: 1px;
+            width: 300px;
+            margin: auto;  
+            margin-top: 30px;
+        }
+
+    }
+
+.ruteros {
+    flex-direction: column;
+}
+.titulo-redes {
+    .integrantes {
+        font-size: 18px;
+        letter-spacing: 1px;
+        width: 300px;
+        margin: auto;  
+        margin-top: 30px;
+    }
+}
+
+    .perfiles {
+        flex-direction: column;
+        margin: auto;
+        div {
+            margin: auto;
+            a {
+                text-align: center;
+            }
+            
+        }
+    }
+
+
+
+}

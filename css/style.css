@@ -7,12 +7,6 @@
   font-family: "titulo";
   src: url(../caviar_dreams/fonts/CaviarDreams.ttf); }
 
-@media (max-width: 910px) {
-  .texto-banner {
-    display: none; }
-  .logo-footer {
-    display: none; } }
-
 .texto-banner {
   font-family: "titulo";
   color: #949494;
@@ -22,13 +16,105 @@
   margin-top: 20px; }
 
 .video-banner {
+  margin: 0;
   display: block;
   height: 500px;
   width: 100%;
-  border-color: black;
-  border: none;
   object-position: center;
   object-fit: cover; }
+
+.fondo {
+  background: url(../resources/Fotos/fondo-claro.jpg);
+  background-attachment: fixed; }
+
+.banner-2 {
+  border: solid;
+  border-color: #1f1f1f;
+  margin: auto;
+  height: 200px;
+  padding: 0;
+  background-color: #1f1f1f; }
+  .banner-2 p {
+    font-family: titulo;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    padding: 50px; }
+
+.seccion-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px; }
+  .seccion-1 img {
+    width: 40%;
+    height: 350px;
+    object-fit: cover; }
+  .seccion-1 .cajita-texto1 {
+    display: flex;
+    background-color: white;
+    box-shadow: -20px 20px 20px grey;
+    margin: auto;
+    width: 500px;
+    height: 170px;
+    align-content: center;
+    justify-content: center; }
+    .seccion-1 .cajita-texto1 p {
+      font-family: "titulo";
+      font-size: 20px;
+      justify-content: center;
+      align-content: center;
+      margin: 30px; }
+
+.seccion-2 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px; }
+  .seccion-2 img {
+    width: 40%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top; }
+  .seccion-2 .cajita-texto2 {
+    display: flex;
+    background-color: white;
+    box-shadow: -20px 20px 20px grey;
+    margin: auto;
+    width: 500px;
+    height: 170px;
+    align-content: center;
+    justify-content: center; }
+    .seccion-2 .cajita-texto2 p {
+      font-family: "titulo";
+      font-size: 20px;
+      justify-content: center;
+      align-content: center;
+      margin: 30px; }
+
+.seccion-3 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px; }
+  .seccion-3 img {
+    width: 40%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top; }
+  .seccion-3 .cajita-texto3 {
+    display: flex;
+    background-color: white;
+    box-shadow: -20px 20px 20px grey;
+    margin: auto;
+    width: 500px;
+    height: 170px;
+    align-content: center;
+    justify-content: center; }
+    .seccion-3 .cajita-texto3 p {
+      font-family: "titulo";
+      font-size: 20px;
+      justify-content: center;
+      align-content: center;
+      margin: 30px; }
 
 footer {
   background-color: #d09d62;
@@ -59,3 +145,87 @@ footer {
     border: none;
     margin-left: 650px;
     object-fit: cover; }
+
+.wapp {
+  position: fixed;
+  top: 80%;
+  right: 2%; }
+  .wapp button {
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+    border: none; }
+    .wapp button:hover {
+      transform: scale(1.1, 1.1); }
+    .wapp button img {
+      height: 60px; }
+
+@media (max-width: 910px) {
+  .texto-banner {
+    letter-spacing: 1px;
+    font-size: 20px; }
+  .logo-footer {
+    display: none; }
+  .video-banner {
+    height: 300px; }
+  .banner-2 {
+    height: 100px; }
+    .banner-2 p {
+      font-size: 14px;
+      letter-spacing: 2px;
+      padding-top: 10px; }
+  .seccion-1 {
+    display: flex;
+    flex-direction: column; }
+    .seccion-1 img {
+      height: 300px;
+      width: 250px;
+      margin: auto; }
+    .seccion-1 .cajita-texto1 {
+      height: 150px;
+      width: 250px;
+      margin: auto;
+      margin-top: 30px; }
+      .seccion-1 .cajita-texto1 p {
+        font-size: 14px; }
+  .seccion-2 {
+    display: flex;
+    flex-direction: column; }
+    .seccion-2 img {
+      height: 300px;
+      width: 250px;
+      margin: auto; }
+    .seccion-2 .cajita-texto2 {
+      height: 150px;
+      width: 250px;
+      margin: auto;
+      margin-bottom: 30px; }
+      .seccion-2 .cajita-texto2 p {
+        font-size: 14px; }
+  .seccion-3 {
+    display: flex;
+    flex-direction: column; }
+    .seccion-3 img {
+      height: 300px;
+      width: 250px;
+      margin: auto; }
+    .seccion-3 .cajita-texto3 {
+      height: 150px;
+      width: 250px;
+      margin: auto;
+      margin-top: 30px; }
+      .seccion-3 .cajita-texto3 p {
+        font-size: 14px; }
+  .wapp {
+    position: fixed;
+    right: 71%;
+    top: 25%; }
+    .wapp button {
+      height: 80px;
+      width: 80px;
+      border-radius: 70px;
+      border: none; }
+      .wapp button:hover {
+        transform: scale(1.1, 1.1); }
+      .wapp button img {
+        height: 50px; } }

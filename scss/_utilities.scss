@@ -11,15 +11,3 @@
 // variables
 
 $color-titulo: rgb(148, 148, 148);
-
-// medias querys
-
-@media (max-width: 910px) {
-   .texto-banner {
-    display: none;
-   }
-   .logo-footer {
-    display: none;
-   }
-
-}

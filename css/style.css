@@ -160,7 +160,7 @@ footer {
     .wapp button img {
       height: 60px; }
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
   .texto-banner {
     letter-spacing: 1px;
     font-size: 20px; }
@@ -217,6 +217,7 @@ footer {
       .seccion-3 .cajita-texto3 p {
         font-size: 14px; }
   .wapp {
+    display: none;
     position: fixed;
     right: 71%;
     top: 25%; }
@@ -360,7 +361,7 @@ footer {
         border-color: grey;
         border-radius: 20px; }
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
   .titulo-nosotros .musica-uniendo {
     font-size: 18px;
     letter-spacing: 1px;
@@ -424,7 +425,7 @@ footer {
       padding-left: 90px;
       list-style: none; }
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
   .caja-titulo-repertorio .titulo-repertorio {
     font-size: 20px;
     letter-spacing: 2px; }
@@ -475,7 +476,7 @@ footer {
     margin-top: 60px;
     margin-left: 380px; }
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
   .caja-titulo-galeria {
     padding: 20px;
     background-color: #1f1f1f; }
@@ -579,7 +580,7 @@ footer {
 .caja-formulario-m {
   display: none; }
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
   .contactate-caja {
     padding: 30px;
     background-color: #f7c77f; }

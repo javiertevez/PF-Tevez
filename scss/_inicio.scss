@@ -228,7 +228,7 @@ footer {
 }
 
 
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
     .texto-banner {
         letter-spacing: 1px;
         font-size: 20px;
@@ -326,6 +326,7 @@ footer {
     }
 
     .wapp {
+        display: none;
         position: fixed;
         right: 71%;
         top: 25%;
